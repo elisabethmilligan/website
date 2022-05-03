@@ -1,103 +1,340 @@
-/* imported fonts */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap');
+/* reset css applied */
+/* courier prime and montserrat font */
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat:wght@700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-
-/* body */
-body{
-  width: 1456px;
-  background-image:url("https://res.cloudinary.com/liz2002/image/upload/v1643327001/Untitled-12_wqcwfo.jpg");
-  background-repeat:no-repeat;
-  background-size: cover;
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
 }
 
-/* nav size */
-nav{
-  width:1456px;
+body {
+  /* website body style */
+  font-family: "courier prime";
+  line-height: 1.3;
 }
 
-/* navigation links */
-ul{
-  background-color: none;
+nav {
+  /* navigation bar */
+  background-color: #7678ed;
+  top: 0;
+  width: 100%;
 }
 
-ul li{
-  display: inline-block;
-  margin: 3px;
+header p {
+  /* above the fold styles */
+  color: #fcdb91;
 }
 
-/* happy nuggets name on nav */
-.citypup{
-  font-size: 40px;
-  font-family: "Abril Fatface";
-  font-weight: bold;
-  color: #FFB5B5;
-  margin-left: 60px;
+section p {
+  /* section p styles */
+  color: #fffcf2;
 }
 
-/* navigation resources */
-.home,
-.about,
-.programs{
-  font-size: 40px;
-  font-family:"Abril Fatface";
-  color: #CCD1E4;
-  margin: 40px 60px;
-  padding: 50px;
+h1,
+h2 {
+  /* h1 and h2 styles */
+  font-family: "montserrat";
+  color: #fcdb91;
+  margin-top: 150px;
+  margin-bottom: 80px;
+  line-height: 90px;
+  text-transform: uppercase;
 }
 
-header{
-  height: 650px;
+h3 {
+  /* h3 style */
+  text-align: center;
+  font-family: "montserrat";
+  color: #fcdb91;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  line-height: 90px;
+  text-transform: uppercase;
 }
 
-/* happy nuggets paragraph */
-h1{
-  font-family: "Source Sans Pro";
-  font-weight: lighter;
-  color: white;
+h4 {
+ /* h4 style */
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "montserrat";
+  color: #fcdb91;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+h5 {
+/* h5 style */
+  font-family: "montserrat";
+  color: #fcdb91;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+em {
+/* CTA style */
+  font-style: italic;
+  color: #fcdb91;
   font-size: 20px;
-  margin: -60px 80px;
-  padding: 50px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  line-height: 90px;
 }
 
-/* title */
-p {
-  font-family: "Abril Fatface";
-  font-size: 78px;
-  color: #FF7272;
-  text-align:left;
-  line-height: 120%;
-  margin: 40px 80px -10px;
-  padding: 50px;
+.ffbuttontext {
+/* funfacts CTA style */
+  margin-left: 115px;
 }
 
-/* emphasis on new improved packaging */
-em{
-  font-weight: bold;
-  font-size: 20px;
-}
-
-span{
-  font-family: "Abril Fatface";
-  font-size: 78px;
-  color: #C81D25;
-  text-align:left;
-}
-
-
-/* adopt now button */
-.myButton {
+.myButton,
+.myButton2,
+.myButton3,
+.myButton4,
+.myButton5,
+.myButton6 {
+  /* button basic style */
   display: inline-block;
   cursor: pointer;
-  color: #621616;
-	background-color: #FF7272;
-	border-radius: 40px;
-	font-family: "Source Sans Pro";
+  color: white;
+  background-color: #7678ed;
+  border-radius: 40px;
+  font-family: "Montserrat";
   text-transform: uppercase;
-	font-size: 20px;
-	font-weight: bold;
-	padding: 20px 40px 20px 40px;
-	text-decoration: none;
+  padding: 12px 22px 12px 22px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom:200px;
+}
+
+.myButton3 {
+  /* benefits button alignment style */
+  margin-left: 830px;
+}
+
+.myButton4 {
+  /* sustainablitiy button alignment style */
+  margin-left: 240px;
+}
+
+.myButton5 {
+  /* locations button alignment style */
+  margin-left: 710px;
+}
+
+.myButton6 {
+/* funfacts button alignment style*/
+  margin-left: 115px;
+}
+
+ul {
+/* ul style */
+  list-style: none;
+  text-align: center;
+}
+
+li {
+/* navigation for li hover style */
+  display: inline-block;
+  width: 150px;
+  margin: 10px 50px 10px 25px;
+  padding: 5px;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+a {
+/* link and navigation style */
+  text-decoration: none;
+  color: #242321;
+  font-family: "courier prime";
+}
+
+.abf-wrapper {
+  /* abf wrapper style */
+  background-image: url("https://res.cloudinary.com/liz2002/image/upload/v1651557464/website1_gu1eiu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.beeswaxwrap-wrapper {
+  /* beeswax wrap wrapper style */
+  background-image: url("https://res.cloudinary.com/liz2002/image/upload/v1651557353/design2_bogwab.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.benefits-wrapper {
+  /* benefits wrapper style */
+  background-image: url("https://res.cloudinary.com/liz2002/image/upload/v1651556751/design3_gecc6z.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sustainability-wrapper {
+  /* sustainablitiy wrapper style */
+  background-image: url("https://res.cloudinary.com/liz2002/image/upload/v1651556985/design4_dtyga4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.location-wrapper {
+  /* location wrapper style */
+  background-image: url("https://res.cloudinary.com/liz2002/image/upload/v1651615826/Untitled-3_jpeqro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fun-facts-wrapper {
+  /* location wrapper style */
+  background-image: url("https://res.cloudinary.com/liz2002/image/upload/v1651616021/Untitled-2_gwgy3f.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.beeswax-DIY-wrapper {
+  /* beeswax DIY wrapper style */
+   background-image: url("https://res.cloudinary.com/liz2002/image/upload/v1651446968/diysection7_pj8mwh.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.diyflex {
+  /* beeswax DIY steps organization */
+  list-style: none;
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 90px;
+  margin-left: 120px;
+}
+
+.bwdiy {
+/* beeswax DIY steps style */
+  color: #fffcf2;
+}
+
+.contact-us-wrapper {
+  /* contact us wrapper style */
+    background-image: url("https://res.cloudinary.com/liz2002/image/upload/v1651617520/Untitled-4_gkqs6a.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sign-up-content {
+/* sign up content style */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 90px;
+ margin-bottom: 5px; 
+}
+
+.contact-us-content {
+/* contact content style */
+  margin-top: 110px;
+  margin-bottom: 225px;
+}
+
+.email-content {
+/* email content style */
+  background-color: white;
+  text-align: left;
+  color: #68605C;
+  font-size: 13px;
+  padding: 12px 80px 12px 15px;
+  margin-right: 10px;
+}
+
+.sign-up-button {
+/* sign up button style */
+ background-color: #7678ED;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 11px 18px 11px 18px;
+  border-radius: 6px;
+}
+
+/* footer style start*/
+.footer {
+  background-color: #3c348a;
+}
+
+.footer-header {
+/* footer header colophon style */
   margin-top: 50px;
-  margin-left: 132px;
+  margin-bottom: 50px;
+}
+
+div {
+  padding: 10px; /* your figma file uses 8px as a base measure */
+}
+
+nav,
+header,
+section,
+footer {
+  min-width: 320px;
+  max-width: 1440px; /* replace this value with the widh of your 12 col design*/
+  margin: 0 auto; /*centers main elements in parent*/
+  display: flex; /* creates auto columns*/
+  flex-wrap: wrap; /* make sure columns stack if widths exceed space*/
+  justify-content: space-between; /* distribute available space between elements*/
+}
+
+/* type sizing */
+.type-base {
+  font-size: 1rem;
+}
+.type-base-one-up {
+  font-size: 1.333rem;
+}
+.type-base-two-up {
+  font-size: 1.777rem;
+}
+.type-base-three-up {
+  font-size: 2.369rem;
+}
+.type-base-four-up {
+  font-size: 3.157rem;
+}
+.type-base-five-up {
+  font-size: 4.209rem;
+}
+.type-base-six-up {
+  font-size: 5.61rem;
+}
+.type-base-seven-up {
+  font-size: 4.209rem;
+}
+.type-base-one-down {
+  font-size: 0.75rem;
+}
+
+/* ========================================
+media queries
+=========================================*/
+
+@media only screen and (max-width: 375px) {
+
+/*typography*/  
+ h1,
+ h2,
+ h3,
+ h4{
+   font-size: 14px
+    line-height: 100px;
+    margin-top: 63px;
+    margin-bottom: 30px;}
+  
+  p{
+    font-size: 10px;
+    line-height: 38px;
+    margin-top: 63px;
+    margin-bottom: 30px;}
+  }
+ 
+  
+/* end of mobile above the fold section */
 }
