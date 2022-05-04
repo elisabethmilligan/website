@@ -312,6 +312,166 @@ footer {
   font-size: 0.75rem;
 }
 
+/*=====================================================
+LAYOUT UNITS FOR 12 COLUMN GRID
+=======================================================
+*/
+
+.one-unit {
+  flex-basis: calc(100% / 12 - 1%);
+}
+
+.two-unit {
+  flex-basis: calc((100% / 12) * 2 - 1%);
+}
+
+.three-unit {
+  flex-basis: calc((100% / 12) * 3 - 1%);
+}
+
+.four-unit {
+  flex-basis: calc((100% / 12) * 4 - 1%);
+}
+
+.five-unit {
+  flex-basis: calc((100% / 12) * 5 - 1%);
+}
+
+.six-unit {
+  flex-basis: calc((100% / 12) * 6 - 1%);
+}
+
+.seven-unit {
+  flex-basis: calc((100% / 12) * 7 - 1%);
+}
+
+.eight-unit {
+  flex-basis: calc((100% / 12) * 8 - 1%);
+}
+
+.nine-unit {
+  flex-basis: calc((100% / 12) * 9 - 1%);
+}
+
+.ten-unit {
+  flex-basis: calc((100% / 12) * 10 - 1%);
+}
+
+.eleven-unit {
+  flex-basis: calc((100% / 12) * 11 - 1%);
+}
+
+.twelve-unit {
+  flex-basis: calc((100% / 12) * 12);
+}
+
+/*=====================================================
+RIGHT GAP UNITS FOR 12 COLUMN GRID
+=======================================================
+*/
+
+.one-unit-gap-r {
+  margin-right: calc(100% / 12);
+}
+
+.two-unit-gap-r {
+  margin-right: calc((100% / 12) * 2);
+}
+
+.three-unit-gap-r {
+  margin-right: calc((100% / 12) * 3);
+}
+
+.four-unit-gap-r {
+  margin-right: calc((100% / 12) * 4);
+}
+
+.five-unit-gap-r {
+  margin-right: calc((100% / 12) * 5);
+}
+
+.six-unit-gap-r {
+  margin-right: calc((100% / 12) * 6);
+}
+
+.seven-unit-gap-r {
+  margin-right: calc((100% / 12) * 7);
+}
+
+.eight-unit-gap-r {
+  margin-right: calc((100% / 12) * 8);
+}
+
+.nine-unit-gap-r {
+  margin-right: calc((100% / 12) * 9);
+}
+
+.ten-unit-gap-r {
+  margin-right: calc((100% / 12) * 10);
+}
+
+.eleven-unit-gap-r {
+  margin-right: calc((100% / 12) * 11);
+}
+
+.twelve-unit-gap-r {
+  margin-right: calc((100% / 12) * 12);
+}
+
+/*=====================================================
+LEFT GAP UNITS FOR 12 COLUMN GRID
+=======================================================
+*/
+
+.one-unit-gap-l {
+  margin-left: calc(100% / 12);
+}
+
+.two-unit-gap-l {
+  margin-left: calc((100% / 12) * 2);
+}
+
+.three-unit-gap-l {
+  margin-left: calc((100% / 12) * 3);
+}
+
+.four-unit-gap-l {
+  margin-left: calc((100% / 12) * 4);
+}
+
+.five-unit-gap-l {
+  margin-left: calc((100% / 12) * 5);
+}
+
+.six-unit-gap-l {
+  margin-left: calc((100% / 12) * 6);
+}
+
+.seven-unit-gap-l {
+  margin-left: calc((100% / 12) * 7);
+}
+
+.eight-unit-gap-l {
+  margin-left: calc((100% / 12) * 8);
+}
+
+.nine-unit-gap-l {
+  margin-left: calc((100% / 12) * 9);
+}
+
+.ten-unit-gap-l {
+  margin-left: calc((100% / 12) * 10);
+}
+
+.eleven-unit-gap-l {
+  margin-left: calc((100% / 12) * 11);
+}
+
+.twelve-unit-gap-l {
+  margin-left: calc((100% / 12) * 12);
+}
+
+
 /* ========================================
 media queries
 =========================================*/
@@ -335,6 +495,17 @@ media queries
     margin-bottom: 30px;}
   }
  
+.one-unit,.two-unit, .three-unit, .four-unit, .five-unit, .six-unit, .seven-unit, .eight-unit, .nine-unit, .ten-unit, .eleven-unit, .twelve-unit {
+    flex-basis: 100%;
+  } 
+    
+.one-unit-gap-r,.two-unit-gap-r, .three-unit-gap-r, .four-unit-gap-r, .five-unit-gap-r, .six-unit-gap-r, .seven-unit-gap-r, .eight-unit-gap-r, .nine-unit-gap-r, .ten-unit-gap-r, .eleven-unit-gap-r, .twelve-unit-gap-r {
+    margin-right: 0;
+  }
+  
+.one-unit-gap-l,.two-unit-gap-l, .three-unit-gap-l, .four-unit-gap-l, .five-unit-gap-l, .six-unit-gap-l, .seven-unit-gap-l, .eight-unit-gap-l, .nine-unit-gap-l, .ten-unit-gap-l, .eleven-unit-gap-l, .twelve-unit-gap-l{
+    margin-left: 0;
+  }
   
 /* end of mobile above the fold section */
 }
