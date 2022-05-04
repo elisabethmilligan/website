@@ -494,18 +494,6 @@ media queries
     margin-top: 63px;
     margin-bottom: 30px;}
   }
- 
-.one-unit,.two-unit, .three-unit, .four-unit, .five-unit, .six-unit, .seven-unit, .eight-unit, .nine-unit, .ten-unit, .eleven-unit, .twelve-unit {
-    flex-basis: 100%;
-  } 
-    
-.one-unit-gap-r,.two-unit-gap-r, .three-unit-gap-r, .four-unit-gap-r, .five-unit-gap-r, .six-unit-gap-r, .seven-unit-gap-r, .eight-unit-gap-r, .nine-unit-gap-r, .ten-unit-gap-r, .eleven-unit-gap-r, .twelve-unit-gap-r {
-    margin-right: 0;
-  }
-  
-.one-unit-gap-l,.two-unit-gap-l, .three-unit-gap-l, .four-unit-gap-l, .five-unit-gap-l, .six-unit-gap-l, .seven-unit-gap-l, .eight-unit-gap-l, .nine-unit-gap-l, .ten-unit-gap-l, .eleven-unit-gap-l, .twelve-unit-gap-l{
-    margin-left: 0;
-  }
   
 /* end of mobile above the fold section */
 }
