@@ -477,23 +477,48 @@ media queries
 =========================================*/
 
 @media only screen and (max-width: 375px) {
-
-/*typography*/  
- h1,
- h2,
- h3,
- h4{
-   font-size: 14px
-    line-height: 100px;
-    margin-top: 63px;
-    margin-bottom: 30px;}
   
-  p{
-    font-size: 10px;
-    line-height: 38px;
-    margin-top: 63px;
-    margin-bottom: 30px;}
+ html{
+  font-size:35%;
+  }
+ 
+ nav{
+    padding-bottom:5rem;
   }
   
+   p{
+    font-size: 50px;
+    line-height: 20px;
+    margin-bottom: 30px; 
+ }
+
+em {
+/* CTA style */
+  font-style: italic;
+  color: #fcdb91;
+  font-size: 20px;
+  line-height: 20px;
+}
+  
+
+/* mobile app section styles*/
+  .abf-wrapper,
+  .beeswax-wrapper, 
+  .benefits-wrapper,
+  .sustainability-wrapper,
+  .location-wrapper,
+  .beeswax-DIY-wrapper,
+  .fun-facts-wrapper{
+    background-position:80% 100%;
+    background-size: cover;
+  }
+    
+  .myButton3, 
+  .myButton5 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+  }
+ 
 /* end of mobile above the fold section */
 }
